@@ -1,0 +1,24 @@
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+    "email": "hothanhnhanhot@gmail.com",
+    "password": "123456"
+}
+
+
+###
+
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+    "email": "hothanhnhanhot@gmail.com",
+    "password": "123456"
+}
+
+
+###
+
+GET http://localhost:3000/users/private
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjMsImVtYWlsIjoiaG90aGFuaG5oYW5ob3RAZ21haWwuY29tIiwiaWF0IjoxNzE5ODk1NzEwfQ.HBwbaSzspEOnUZ_EvKA6mnRmnUw8b295ax2gPHTrrVc
